@@ -86,7 +86,7 @@ footer{
     bottom:0;
     left: 0;
     position: fixed;
-    background-color: darkslateblue;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     color: whitesmoke;
     text-align: center;
