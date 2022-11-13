@@ -11,5 +11,5 @@ Exersice-Ninestack website
 ● Clicking the “Contact Us” red button on the top right in header should link to the correct section on the “About”<br>
 page (the contact us form that was built in the previous exercise)<br>
 ● There is no footer on the page and landing page does not need scr<br>
-## Screenshoot
+## Screenshot
 ![image](https://user-images.githubusercontent.com/117428065/201539060-5a4b2f6a-b8c8-439f-915d-f29c6c4124bb.png)
