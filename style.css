@@ -6,18 +6,12 @@ header img {
     border: 1px solid rgb(255, 255, 255);
     padding: 5px;
 }
-/* header.site-header {
-    display: flex;
-} */
-/* header {
-    justify-content: space-evenly;
-    align-items: center;
-} */
+
  header {
     justify-content: space-evenly;
     width: auto;
     height: auto;
-    /* padding: 10px 20px; */
+
  }
  header {
     display: flex;
@@ -33,7 +27,7 @@ header img {
     width: 940px;
     margin-top: 0px;
     padding-left: 40px;
-    /* padding: 12px,25px; */
+  
 }
 #menu li {
     padding: 25px;
@@ -110,10 +104,7 @@ footer{
     align-items: center;
 }
 
-.hero_panel {
-   
-    
-}
+
 .container {
     max-width: 1140px;
     max-height: 487.27;
@@ -213,7 +204,7 @@ p {
     height: 55px;
     cursor: pointer;
 }
-.mousey {
+.mouse {
     width: 3px;
     padding: 10px 15px;
     height: 35px;
@@ -222,17 +213,31 @@ p {
     opacity: .75;
     box-sizing: content-box;
     margin: auto;
-}
-.scroller {
+  }
+  .mouse::before{
+    content: "";
     width: 3px;
     height: 10px;
+    position: absolute;
+    top: 30px;
+    background: #ff0059;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 25%;
-    background-color: #ff0059;
-    animation-name: scroll;
-    animation-duration: 2.2s;
-    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
-    animation-iteration-count: infinite;
+    opacity: 1;
+    animation: mouse 2.2s infinite;
+  }
+@keyframes mouse {
+  from{
+    opacity: 1;
+    top: 750px;
+  }
+  to{
+    opacity: 0;
+    top: 790px;
+  }
 }
+
 
 .formz{
     margin-left: 300px;
@@ -242,7 +247,7 @@ height:1505px ;
 h3{
     margin-right: 5px;
     font-size: 40px;
-    /* text-align: center; */
+   
 }
 .qa{
     margin-left: 100;
@@ -292,12 +297,14 @@ textarea {
 border-color: rgb(207, 248, 253);
 }
 button{
-    width: 70px;
-    height: 30px;
-   background-color: #df5b1d;
+    width: 90px;
+    height: 38px;
+    border-radius: 5%;
+   background-color: #df713f;
    border: #d84d0d;
    color: rgb(255, 255, 255);
 }
 .star{
     color: rgb(248, 18, 18);
 }
+
